@@ -29,11 +29,17 @@
   ],
   "minimum-stability": "stable",
   "require-dev": {
-    "pestphp/pest": "^4.4"
+    "pestphp/pest": "^4.4",
+    "mockery/mockery": "^1.6"
   },
   "config": {
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
+  },
+  "require": {
+    "symfony/filesystem": "^8.0",
+    "symfony/http-foundation": "^8.0",
+    "symfony/mime": "^8.0"
   }
 }
