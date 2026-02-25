@@ -30,7 +30,8 @@
   "minimum-stability": "stable",
   "require-dev": {
     "pestphp/pest": "^4.4",
-    "mockery/mockery": "^1.6"
+    "mockery/mockery": "^1.6",
+    "php": ">=8.0"
   },
   "config": {
     "allow-plugins": {
